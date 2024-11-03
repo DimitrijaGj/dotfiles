@@ -1,0 +1,103 @@
+{
+  "history": [
+    {
+      "message": {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "python code for hello world"
+          }
+        ],
+        "id": "ef639146-4a34-47fb-9fd5-05f253cd8cdb"
+      },
+      "contextItems": [],
+      "editorState": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "python code for hello world"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "message": {
+        "id": "73772689-9e92-4759-8f50-a46fe8eb76aa",
+        "role": "assistant",
+        "content": " Certainly! Below is a simple Python script that prints \"Hello, World!\" to the console:\n\n```python\nprint(\"Hello, World!\")\n```\n\nYou can run this code in any Python environment. If you have Python installed on your computer, you can open a text editor or an Integrated Development Environment (IDE) like VSCode, PyCharm, or Jupyter Notebook, and paste the code into a new file or cell, respectively. Then, execute the script by running it as a program.\n\nFor example, if you are using a command line interface, you can save the code in a file named `hello_world.py` and then run:\n\n```sh\npython hello_world.py\n```\n\nThis will output \"Hello, World!\" to your terminal or command prompt."
+      },
+      "contextItems": [],
+      "promptLogs": [
+        {
+          "modelTitle": "deepseek-coder-v2",
+          "prompt": "<user>\npython code for hello world\n\n",
+          "completion": " Certainly! Below is a simple Python script that prints \"Hello, World!\" to the console:\n\n```python\nprint(\"Hello, World!\")\n```\n\nYou can run this code in any Python environment. If you have Python installed on your computer, you can open a text editor or an Integrated Development Environment (IDE) like VSCode, PyCharm, or Jupyter Notebook, and paste the code into a new file or cell, respectively. Then, execute the script by running it as a program.\n\nFor example, if you are using a command line interface, you can save the code in a file named `hello_world.py` and then run:\n\n```sh\npython hello_world.py\n```\n\nThis will output \"Hello, World!\" to your terminal or command prompt.",
+          "completionOptions": {
+            "model": "deepseek-coder-v2:latest",
+            "maxTokens": 2048,
+            "stop": [
+              "User:",
+              "Assistant:"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "message": {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "bash script for checking debian version of the server"
+          }
+        ],
+        "id": "4679bd16-0917-42a9-9e8e-11949b76c74b"
+      },
+      "contextItems": [],
+      "editorState": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "bash script for checking debian version of the server"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "message": {
+        "id": "115a46f0-b77e-4f90-8122-5f7561adf38e",
+        "role": "assistant",
+        "content": " Certainly! Below is a simple Bash script that checks the Debian version of the server you are running on:\n\n```bash\n#!/bin/bash\n\n# Check the Debian version of the server\ndebian_version=$(grep 'PRETTY_NAME' /etc/os-release | awk -F= '{print $2}' | tr -d '\"')\n\nif [ -z \"$debian_version\" ]; then\n    echo \"Could not determine the Debian version.\"\nelse\n    echo \"The Debian version of this server is: $debian_version\"\nfi\n```\n\nTo use this script, follow these steps:\n\n1. Save the script to a file, for example, `check_debian_version.sh`.\n2. Make the script executable by running the following command in the terminal:\n   ```bash\n   chmod +x check_debian_version.sh\n   ```\n3. Run the script using:\n   ```bash\n   ./check_debian_version.sh\n   ```\n\nThis script reads the `PRETTY_NAME` line from `/etc/os-release`, which contains information about the operating system, and extracts the Debian version. If it can't find this information, it will print a message indicating that the version could not be determined."
+      },
+      "contextItems": [],
+      "promptLogs": [
+        {
+          "modelTitle": "deepseek-coder-v2",
+          "prompt": "<user>\npython code for hello world\n\n<assistant>\n Certainly! Below is a simple Python script that prints \"Hello, World!\" to the console:\n\n```python\nprint(\"Hello, World!\")\n```\n\nYou can run this code in any Python environment. If you have Python installed on your computer, you can open a text editor or an Integrated Development Environment (IDE) like VSCode, PyCharm, or Jupyter Notebook, and paste the code into a new file or cell, respectively. Then, execute the script by running it as a program.\n\nFor example, if you are using a command line interface, you can save the code in a file named `hello_world.py` and then run:\n\n```sh\npython hello_world.py\n```\n\nThis will output \"Hello, World!\" to your terminal or command prompt.\n\n<user>\nbash script for checking debian version of the server\n\n",
+          "completion": " Certainly! Below is a simple Bash script that checks the Debian version of the server you are running on:\n\n```bash\n#!/bin/bash\n\n# Check the Debian version of the server\ndebian_version=$(grep 'PRETTY_NAME' /etc/os-release | awk -F= '{print $2}' | tr -d '\"')\n\nif [ -z \"$debian_version\" ]; then\n    echo \"Could not determine the Debian version.\"\nelse\n    echo \"The Debian version of this server is: $debian_version\"\nfi\n```\n\nTo use this script, follow these steps:\n\n1. Save the script to a file, for example, `check_debian_version.sh`.\n2. Make the script executable by running the following command in the terminal:\n   ```bash\n   chmod +x check_debian_version.sh\n   ```\n3. Run the script using:\n   ```bash\n   ./check_debian_version.sh\n   ```\n\nThis script reads the `PRETTY_NAME` line from `/etc/os-release`, which contains information about the operating system, and extracts the Debian version. If it can't find this information, it will print a message indicating that the version could not be determined.",
+          "completionOptions": {
+            "model": "deepseek-coder-v2:latest",
+            "maxTokens": 2048
+          }
+        }
+      ]
+    }
+  ],
+  "title": "python code for hello world",
+  "sessionId": "5e94e44e-e345-4141-95d7-e94a257e550d",
+  "workspaceDirectory": "/Users/dimitrijagjoshev/Documents/training/AI_Test"
+}

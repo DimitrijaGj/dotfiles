@@ -1,0 +1,77 @@
+{
+  "history": [
+    {
+      "message": {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "python code for hello wolrd"
+          }
+        ],
+        "id": "5fad54bc-a842-4f64-a8e0-ad1e0ec349df"
+      },
+      "contextItems": [],
+      "editorState": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "python code for hello wolrd"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "message": {
+        "id": "644a71b1-6512-4b11-a7eb-6e4537ce17a8",
+        "role": "assistant",
+        "content": ""
+      },
+      "contextItems": []
+    },
+    {
+      "message": {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "python code hello world"
+          }
+        ],
+        "id": "71503626-b079-413d-bea2-24d268cd9254"
+      },
+      "contextItems": [],
+      "editorState": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "python code hello world"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "message": {
+        "id": "66e8cdd6-a56c-4801-b99f-8a038fa47d71",
+        "role": "assistant",
+        "content": ""
+      },
+      "contextItems": []
+    }
+  ],
+  "title": "python code for hello wolrd",
+  "sessionId": "74e4ff47-4457-4370-8a5f-cf0777e88298",
+  "workspaceDirectory": "/Users/dimitrijagjoshev/Documents/training/AI_Test"
+}

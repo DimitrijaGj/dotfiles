@@ -1,0 +1,57 @@
+{
+  "history": [
+    {
+      "message": {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "code for hello wolrd in python"
+          }
+        ],
+        "id": "3b01609a-1955-4fb6-8ae6-6c2f270d91fb"
+      },
+      "contextItems": [],
+      "editorState": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "code for hello wolrd in python"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "message": {
+        "id": "7a8b2da0-106e-4923-a23e-66b57cab4bfa",
+        "role": "assistant",
+        "content": " Certainly! Below is a simple Python script that prints \"Hello, World!\" to the console:\n\n```python\nprint(\"Hello, World!\")\n```\n\nThis script uses the `print` function to display the string \"Hello, World!\" on the screen. You can run this code in any Python environment."
+      },
+      "contextItems": [],
+      "promptLogs": [
+        {
+          "modelTitle": "deepseek-coder-v2",
+          "prompt": "<user>\ncode for hello wolrd in python\n\n",
+          "completion": " Certainly! Below is a simple Python script that prints \"Hello, World!\" to the console:\n\n```python\nprint(\"Hello, World!\")\n```\n\nThis script uses the `print` function to display the string \"Hello, World!\" on the screen. You can run this code in any Python environment.",
+          "completionOptions": {
+            "model": "deepseek-coder-v2:latest",
+            "maxTokens": 2048,
+            "stop": [
+              "User:",
+              "Assistant:"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "title": "code for hello wolrd in python",
+  "sessionId": "a6857b9e-8df8-4c39-9463-4393e328fecd",
+  "workspaceDirectory": "/Users/dimitrijagjoshev/Documents/training/AI_Test"
+}

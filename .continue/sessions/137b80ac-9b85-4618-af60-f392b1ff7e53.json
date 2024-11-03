@@ -1,0 +1,53 @@
+{
+  "history": [
+    {
+      "message": {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "python code for hello world"
+          }
+        ],
+        "id": "a39a93bc-115e-41f2-a465-d0b27b12061a"
+      },
+      "contextItems": [],
+      "editorState": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "python code for hello world"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "message": {
+        "id": "2382df7c-56e8-41a4-8ffb-e05939f6ac3b",
+        "role": "assistant",
+        "content": " Certainly! Below is a simple Python script that prints \"Hello, World!\" to the console:\n\n```python\nprint(\"Hello, World!\")\n```\n\nYou can run this code in any Python environment. If you have Python installed on your computer, you can open a text editor or an IDE (like VSCode, PyCharm, etc.), write this code, and execute it by running the script file with `python` command followed by the filename."
+      },
+      "contextItems": [],
+      "promptLogs": [
+        {
+          "modelTitle": "deepseek-coder-v2",
+          "prompt": "<user>\npython code for hello world\n\n",
+          "completion": " Certainly! Below is a simple Python script that prints \"Hello, World!\" to the console:\n\n```python\nprint(\"Hello, World!\")\n```\n\nYou can run this code in any Python environment. If you have Python installed on your computer, you can open a text editor or an IDE (like VSCode, PyCharm, etc.), write this code, and execute it by running the script file with `python` command followed by the filename.",
+          "completionOptions": {
+            "model": "deepseek-coder-v2:latest",
+            "maxTokens": 2048
+          }
+        }
+      ]
+    }
+  ],
+  "title": "python code for hello world",
+  "sessionId": "137b80ac-9b85-4618-af60-f392b1ff7e53",
+  "workspaceDirectory": "/Users/dimitrijagjoshev/Documents/training/AI_Test"
+}

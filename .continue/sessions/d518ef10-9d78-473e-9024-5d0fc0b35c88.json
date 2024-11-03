@@ -1,0 +1,42 @@
+{
+  "history": [
+    {
+      "message": {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "python code for hello world"
+          }
+        ],
+        "id": "51388802-e95b-48aa-9e59-10e906c72047"
+      },
+      "contextItems": [],
+      "editorState": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "python code for hello world"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "message": {
+        "id": "40b68fee-984c-4c8d-b9c3-ee8131c7f166",
+        "role": "assistant",
+        "content": ""
+      },
+      "contextItems": []
+    }
+  ],
+  "title": "python code for hello world",
+  "sessionId": "d518ef10-9d78-473e-9024-5d0fc0b35c88",
+  "workspaceDirectory": ""
+}
